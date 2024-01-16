@@ -1,9 +1,11 @@
 import unittest
-import solution
+from typing import List
+
+from solution import sparse_matrix_multiplication
 
 
 class TestProgram(unittest.TestCase):
-    def test_case_1(self):
+    def test_case_1(self) -> None:
         matrix_a = [
             [0, 2, 0],
             [0, -3, 5],
@@ -17,10 +19,10 @@ class TestProgram(unittest.TestCase):
             [0, 0, 0],
             [0, 0, 20],
         ]
-        actual = solution.sparse_matrix_multiplication(matrix_a, matrix_b)
+        actual: List[List[int]] = sparse_matrix_multiplication(matrix_a, matrix_b)
         self.assertEqual(actual, expected)
 
-    def test_case_2(self):
+    def test_case_2(self) -> None:
         matrix_a = [
             [46, 0, 0],
             [45, 47, 0],
@@ -42,10 +44,10 @@ class TestProgram(unittest.TestCase):
             [76, 60, 46, 2, 90, 44],
             [0, 0, 0, 0, 0, 0],
         ]
-        actual = solution.sparse_matrix_multiplication(matrix_a, matrix_b)
+        actual: List[List[int]] = sparse_matrix_multiplication(matrix_a, matrix_b)
         self.assertEqual(actual, expected)
 
-    def test_case_3(self):
+    def test_case_3(self) -> None:
         matrix_a = [
             [0, 0, 1],
             [1, 0, 2],
@@ -61,5 +63,5 @@ class TestProgram(unittest.TestCase):
             [0, 3, 0],
             [0, 1, 0],
         ]
-        actual = solution.sparse_matrix_multiplication(matrix_a, matrix_b)
+        actual: List[List[int]] = sparse_matrix_multiplication(matrix_a, matrix_b)
         self.assertEqual(actual, expected)

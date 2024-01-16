@@ -22,8 +22,8 @@ def sparse_matrix_multiplication(
 
 def get_dict_of_nonzero_cells(matrix: List[List[int]]) -> Dict[Tuple[int, int], int]:
     dict_of_nonzero_cells = {}
-    for row in range(len(matrix)):
-        for col in range(len(matrix[0])):
-            if matrix[row][col] != 0:
-                dict_of_nonzero_cells[(row, col)] = matrix[row][col]
+    for row, row_values in enumerate(matrix):
+        for col, value in enumerate(row_values):
+            if value != 0:
+                dict_of_nonzero_cells[(row, col)] = value
     return dict_of_nonzero_cells
