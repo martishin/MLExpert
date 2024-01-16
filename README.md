@@ -1,2 +1,2 @@
 # MLExpert
-Solutions for MLExpert course 
+Solutions for [MLExpert](https://www.algoexpert.io/content#mlexpert) course 
