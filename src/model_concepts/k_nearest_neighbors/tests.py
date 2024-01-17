@@ -1,7 +1,7 @@
 import json
 
-from solution import find_k_nearest_neighbors, predict_label
 import unittest
+from solution import find_k_nearest_neighbors, predict_label
 
 
 def get_knn_examples():

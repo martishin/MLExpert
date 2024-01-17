@@ -14,7 +14,7 @@ def predict_label(
     label_key: str = "is_intrusive",
 ) -> int:
     k_nearest_neighbors = find_k_nearest_neighbors(examples, features, k)
-    k_nearest_neighbors_labels = [
+    k_nearest_neighbors_labels: List[int] = [
         examples[pid][label_key] for pid in k_nearest_neighbors
     ]
     return round(sum(k_nearest_neighbors_labels) / k)
