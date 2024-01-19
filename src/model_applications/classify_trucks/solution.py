@@ -1,7 +1,8 @@
 import tensorflow as tf
+from tensorflow.python.keras.engine.sequential import Sequential
 
 
-def classify_trucks():
+def classify_trucks() -> Sequential:
     model = tf.keras.models.Sequential(
         [
             tf.keras.layers.Conv2D(
@@ -30,7 +31,7 @@ def classify_trucks():
     )
 
     model.compile(
-        optimizer = tf.keras.optimizers.Adam(learning_rate=0.01),
+        optimizer=tf.keras.optimizers.Adam(learning_rate=0.01),
         loss=tf.keras.losses.BinaryCrossentropy(),
         metrics=["binary_accuracy"],
     )
