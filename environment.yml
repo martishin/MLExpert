@@ -17,7 +17,7 @@ dependencies:
   - brotli-bin=1.0.9=h1a28f6b_7
   - bzip2=1.0.8=h620ffc9_4
   - c-ares=1.19.1=h80987f9_0
-  - ca-certificates=2023.12.12=hca03da5_0
+  - ca-certificates=2024.3.11=hca03da5_0
   - click=8.1.7=py311hca03da5_0
   - gflags=2.2.2=hc377ac9_0
   - glog=0.5.0=hc377ac9_0
@@ -25,6 +25,7 @@ dependencies:
   - gtest=1.14.0=h48ca7d4_0
   - icu=73.1=h313beb8_0
   - isort=5.13.2=pyhd8ed1ab_0
+  - joblib=1.4.0=py311hca03da5_0
   - krb5=1.20.1=hf3e1bf2_1
   - libboost=1.82.0=h0bc93f9_2
   - libbrotlicommon=1.0.9=h1a28f6b_7
@@ -50,10 +51,11 @@ dependencies:
   - lz4-c=1.9.4=h313beb8_0
   - mypy_extensions=1.0.0=py311hca03da5_0
   - ncurses=6.4=h313beb8_0
+  - nltk=3.8.1=py311hca03da5_0
   - numexpr=2.8.7=py311h6dc990b_0
   - numpy=1.26.3=py311he598dae_0
   - numpy-base=1.26.3=py311hfbfe69c_0
-  - openssl=3.0.12=h1a28f6b_0
+  - openssl=3.0.13=h1a28f6b_2
   - orc=1.7.4=hdca1487_1
   - packaging=23.1=py311hca03da5_0
   - pandas=2.1.4=py311h7aedaa7_0
@@ -62,6 +64,7 @@ dependencies:
   - platformdirs=3.10.0=py311hca03da5_0
   - py4j=0.10.9.7=py311hca03da5_0
   - pyarrow=11.0.0=py311h7575258_1
+  - pybind11-abi=4=hd3eb1b0_1
   - pyspark=3.5.0=pyhd8ed1ab_0
   - python=3.11.0=h3ba56d0_1_cpython
   - python-dateutil=2.8.2=pyhd3eb1b0_0
@@ -70,11 +73,16 @@ dependencies:
   - pytz=2023.3.post1=py311hca03da5_0
   - re2=2022.04.01=hc377ac9_0
   - readline=8.2=h1a28f6b_0
+  - regex=2023.10.3=py311h80987f9_0
+  - scikit-learn=1.4.2=py311h7aedaa7_1
+  - scipy=1.13.0=py311hc76d9b0_0
   - setuptools=68.2.2=py311hca03da5_0
   - six=1.16.0=pyhd3eb1b0_1
   - snappy=1.1.10=h313beb8_1
   - sqlite=3.41.2=h80987f9_0
+  - threadpoolctl=2.2.0=pyh0d69192_0
   - tk=8.6.12=hb8d0fd4_0
+  - tqdm=4.66.4=py311hb6e6a13_0
   - tzdata=2023d=h04d1e81_0
   - utf8proc=2.6.1=h1a28f6b_0
   - wheel=0.41.2=py311hca03da5_0
