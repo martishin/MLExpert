@@ -3,6 +3,7 @@ channels:
   - conda-forge
   - defaults
 dependencies:
+  - _py-xgboost-mutex=2.0=cpu_0
   - abseil-cpp=20230802.0=h313beb8_2
   - arrow-cpp=11.0.0=hc7aafb3_2
   - aws-c-common=0.6.8=h80987f9_1
@@ -46,6 +47,7 @@ dependencies:
   - libsqlite=3.44.2=h091b4b1_0
   - libssh2=1.10.0=h02f6b3c_2
   - libthrift=0.15.0=h73c2103_2
+  - libxgboost=2.0.3=h313beb8_0
   - libzlib=1.2.13=h53f4e23_5
   - llvm-openmp=14.0.6=hc6e5704_0
   - lz4-c=1.9.4=h313beb8_0
@@ -55,13 +57,14 @@ dependencies:
   - numexpr=2.8.7=py311h6dc990b_0
   - numpy=1.26.3=py311he598dae_0
   - numpy-base=1.26.3=py311hfbfe69c_0
-  - openssl=3.0.13=h1a28f6b_2
+  - openssl=3.0.14=h80987f9_0
   - orc=1.7.4=hdca1487_1
   - packaging=23.1=py311hca03da5_0
   - pandas=2.1.4=py311h7aedaa7_0
   - pathspec=0.10.3=py311hca03da5_0
   - pip=23.3.1=py311hca03da5_0
   - platformdirs=3.10.0=py311hca03da5_0
+  - py-xgboost=2.0.3=py311hca03da5_0
   - py4j=0.10.9.7=py311hca03da5_0
   - pyarrow=11.0.0=py311h7575258_1
   - pybind11-abi=4=hd3eb1b0_1
@@ -86,6 +89,7 @@ dependencies:
   - tzdata=2023d=h04d1e81_0
   - utf8proc=2.6.1=h1a28f6b_0
   - wheel=0.41.2=py311hca03da5_0
+  - xgboost=2.0.3=py311hca03da5_0
   - xz=5.4.5=h80987f9_0
   - zlib=1.2.13=h53f4e23_5
   - zstd=1.5.5=hd90d995_0
